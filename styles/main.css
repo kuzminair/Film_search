@@ -27,7 +27,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#film{
+#film-box{
     padding: 10px 30px;
     margin: 5px 20px;
     border: 2px dotted purple;
@@ -35,11 +35,15 @@ h1{
     box-shadow: 0 4px 6px rgba(95, 20, 91, 0.1);
 
 }
-#details {
+#btn-details{
     width: 150px;
 
     user-select: none;
     cursor: pointer;
+}
+#id{
+    display: none;
+    position: absolute;
 }
 #detailsFilm{
     padding: 10px 30px;;
